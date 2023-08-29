@@ -1,0 +1,6 @@
+About me, Portfolio, resume and Contact me
+
+About me is just text
+Porfolio should me an image with a link to the relevant project
+Resume should allow my resume to be downloaded
+Contact me should be a form that allows email with a body/message
