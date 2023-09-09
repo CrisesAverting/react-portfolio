@@ -1,12 +1,21 @@
-// import profile from '../../public/assets/'
-export default function AboutMe(){
+// import { profileImage } from "../images/ProfileImage.png";
+import profileImage from "../images/ProfileImage.png"
+import '../style.css';
+
+export default function AboutMe() {
 
     return (
         <>
-        {/* <img src="../../"/> */}
-        <p>
-            stuff and things go here about me
-        </p>
+            <div className="wrap">
+
+                <img fluid src={profileImage} alt="profile picture" width="200px" />
+                <p className="Abt">
+                    I currently work at Apple as a Genius technician fixing computers, phones and other apple products.
+                    I am working towards improving my web development knowledge including Javascript, html, css and various
+                    frameworks such a react and bootstrap.My name is Nicco, i am a graduate of the full stack development bootcamp from Columbia university.
+                </p>
+            </div>
         </>
+
     );
 }

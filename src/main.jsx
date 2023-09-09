@@ -4,12 +4,15 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
+// import './style.css';
 
 // Bringing in the pages the router will use to conditionally show the appropriate views
 import App from './App';
 import ErrorPage from './pages/ErrorPage';
-import HomePage from './pages/HomePage';
+// import HomePage from './pages/HomePage';
 import AboutMe from './pages/AboutMe';
+import Projects from './pages/Projects';
+import ContactMe from './pages/ContactMe'
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -20,11 +23,16 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <HomePage />,
+        // path: 'AboutMe',
+        element: <AboutMe />,
       },
       {
-        path: 'about',
-        element: <AboutMe />,
+        path: '/Projects',
+        element: <Projects />,
+      },
+      {
+        path: '/ContactMe',
+        element: <ContactMe />,
       },
     ],
   },
