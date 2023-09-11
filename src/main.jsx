@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client';
 // Bringing in the required imports from 'react-router-dom' to set up application routing behavior
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
@@ -15,7 +15,7 @@ import Projects from './pages/Projects';
 import ContactMe from './pages/ContactMe'
 
 // Define the accessible routes, and which components respond to which URL
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <App />,
