@@ -1,8 +1,40 @@
-# React + Vite
+# React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
 
-Currently, two official plugins are available:
+* [Description](#description)
+* [Links](#links)
+* [Purpose](#purpose)
+* [Screenshots](#screenshots)
+* [Technologies Used](#technologies)
+* [Licence](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
+
+This is a starter portfolio written in react
+
+## Links
+
+Deployment: https://crisesaverting.github.io/react-portfolio/
+
+## Purpose
+
+Designed and built to showcase prior projects utilizing react
+
+## Screenshots
+
+## Technologies
+
+<img src="https://img.shields.io/badge/Built%20with-HTML5-blue">
+
+<img src="https://img.shields.io/badge/Built%20with-CSS3-blue">
+
+<img src="https://img.shields.io/badge/Built%20with-Javascript-blue">
+
+<img src="https://img.shields.io/badge/Built%20with-React-blue">
+
+## License
+
+<img src="https://img.shields.io/badge/license-MIT-blue">
+
+
