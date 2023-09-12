@@ -15,10 +15,11 @@ This is a starter portfolio written in react
 
 ## Links
 
-<a href="https://crisesaverting.github.io/passwordGenerator/">Deployed Password Generator website</a>
+Deployment: https://crisesaverting.github.io/react-portfolio/
 
 ## Purpose
 
+Designed and built to showcase prior project utilizing react
 
 ## Screenshots
 
